@@ -25,8 +25,8 @@ i{
 .cardContent {
   background-color: white;
   margin: auto;
-  height: 70vh;
-  width: 22.5vw;
+  height: 40vh;
+  width: 35vw;
   box-shadow: 0px 0px 59px 5px rgba(0, 0, 0, 0.58);
   overflow: scroll;
 }
@@ -55,8 +55,8 @@ i{
   font-weight: 100;
   text-align: center;
   margin: auto;
-  padding-top: 8.5vw;
-  height: 58vh;
+  padding-top: 5.5vh;
+  height: 31vh;
   width: 22.5;
 }
 
@@ -65,6 +65,8 @@ i{
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding-bottom: 1.5vw
+  padding-left: 1vw;
 }
 
 
