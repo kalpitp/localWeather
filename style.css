@@ -76,7 +76,7 @@ i{
 
 .dataSource{
   color: white;
-  margin-left: 2px;
+  margin-left: 3px;
 }
 
 
@@ -116,7 +116,7 @@ input:focus+.slider {
 
 input:checked+.slider:before {
 
-  transform: translateX(18px);
+  transform: translateX(15px);
 }
 
 .slider.round {
