@@ -15,26 +15,26 @@ $(document).ready(function() {
 
      var icon=json.currently.icon;
 
-     if (icon=="Clouds")
+     if (icon=="cloudy")
        {
-        iconString="http://www.clipartbest.com/cliparts/KTj/e9x/KTje9x88c.png";
-        htmlIcon= "<img src="+iconString+" height="+100+"width="+100+"></img>"
+           $(".cardIcon").html("<i class=\"wi wi-day-cloudy-high\"></i>");
        }
-    else if (icon=="Rain")
+    else if (icon=="rain")
       {
-        iconString="http://www.mikeafford.com/store/store-images/ms01b_example_heavy_rain_showers.png";
-        htmlIcon= "<img src="+iconString+" height="+100+"width="+100+"></img>"
+        $(".cardIcon").html("<i class=\"wi wi-day-rain\"></i>");
       }
+      else if (icon=="snow")
+        {
+          $(".cardIcon").html("<i class=\"wi wi-snow\"></i>");
+        }
      else
        {
-         iconString="http://angourieblueseven.com/images/weather_sun.png";
-        htmlIcon= "<img src="+iconString+" height="+100+"width="+100+"></img>"
-
+         $(".cardIcon").html("<i class=\"wi wi-day-sunny\"></i>");
        }
 
 
   $(".cardData").html(htmlTempF);
-     $(".cardIcon").html(htmlIcon);
+
           });
   });
 }

@@ -1,3 +1,4 @@
+
 h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
 }
@@ -5,6 +6,10 @@ h1, h2, h3 {
 a:link, a:visited {
     color: white;
     text-decoration: none;
+}
+
+i{
+  font-size: 45px;
 }
 
 .backgroundLayer {
@@ -41,8 +46,8 @@ a:link, a:visited {
 }
 
 .cardIcon {
-  margin-top: 2%;
-  margin-right:3%;
+  margin-top: 5%;
+  margin-right:4%;
 }
 
 .cardData {
@@ -61,6 +66,7 @@ a:link, a:visited {
   justify-content: flex-end;
   align-items: center;
 }
+
 
 
 .switch {
