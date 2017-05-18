@@ -10,10 +10,10 @@ $(document).ready(function() {
 
      var tempc= (tempf-32)*1.8;
 
-      htmlTempF= "The current temperature is "+tempf+ " degrees "+ " fahrenheit.";
-     htmlTempC= "The current temperature is "+tempc+ " degrees "+ "celsius.";
+    htmlTempF= "Temperature: "+tempf.toFixed(0)+ " degrees "+ " f <br> Humidity: "+json.currently.humidity+"<br> Wind Speed: "+json.currently.windSpeed + " mph <br> Condition: " + json.currently.summary
+    htmlTempC= "Temperature: "+tempc.toFixed(0)+ " degrees "+ " c <br> Humidity: "+json.currently.humidity+"<br> Wind Speed: "+json.currently.windSpeed + " mph <br> Condition: " + json.currently.summary
 
-     var icon=json.currently.summary;
+     var icon=json.currently.icon;
 
      if (icon=="Clouds")
        {
