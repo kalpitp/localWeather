@@ -56,11 +56,12 @@ i{
   text-align: center;
   margin: auto;
   padding-top: 50px;
-  height: 350px;
+  height: 343px;
 }
 
 .cardSwitch {
-  height: 60px;
+  height: 45px;
+  margin-right: 10px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -69,14 +70,14 @@ i{
 .switch {
   position: relative;
   display: inline-block;
-  width: 42px;
-  height: 24px;
-  margin-right: 4px;
+  width: 63px;
+  height:36px;
+  margin-right: 6px;
 }
 
 .dataSource{
   color: white;
-  margin-left: 3px;
+  margin-left: 4px;
 }
 
 
@@ -98,10 +99,10 @@ i{
 .slider:before {
   position: absolute;
   content: "";
-  height: 18px;
-  width: 18px;
-  left: 5px;
-  bottom: 3px;
+  height: 27px;
+  width: 27px;
+  left: 8px;
+  bottom: 4px;
   background-color: white;
   transition: .4s;
 }
@@ -111,16 +112,16 @@ input:checked+.slider {
 }
 
 input:focus+.slider {
-  box-shadow: 0 0 8px #2196F3;
+  box-shadow: 0 0 12px #2196F3;
 }
 
 input:checked+.slider:before {
 
-  transform: translateX(15px);
+  transform: translateX(22.5px);
 }
 
 .slider.round {
-  border-radius: 12px;
+  border-radius: 18px;
 }
 
 .slider.round:before {

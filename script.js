@@ -8,7 +8,7 @@ $(document).ready(function() {
      var tempf= json.currently.apparentTemperature;
      measurementSystem="fahrenheit";
 
-     var tempc= (tempf-32)*1.8;
+     var tempc= ((tempf-32)*5)/9;
 
     htmlTempF= tempf.toFixed(0)+ "&#8457<br><a style=\"font-size: 1vw\">" + json.minutely.summary + "</a>"
     htmlTempC= tempc.toFixed(0)+ "&#8451<br><a style=\"font-size: 1vw\">" + json.minutely.summary + "</a>"
