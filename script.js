@@ -10,8 +10,8 @@ $(document).ready(function() {
 
      var tempc= (tempf-32)*1.8;
 
-    htmlTempF= tempf.toFixed(0)+ "&#8457 <br> <a style=\"font-size: 2vw\">"  + json.currently.summary + "</a>"
-    htmlTempC= tempc.toFixed(0)+ "&#8451 <br> <a style=\"font-size: 2vw\">" + json.currently.summary + "</a>"
+    htmlTempF= tempf.toFixed(0)+ "&#8457 <br><br><a style=\"font-size: 2vw\">"  + json.minutely.summary + "</a>"
+    htmlTempC= tempc.toFixed(0)+ "&#8451 <br><br> <a style=\"font-size: 2vw\">" + json.minutely.summary + "</a>"
 
      var icon=json.currently.icon;
 
