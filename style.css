@@ -20,16 +20,16 @@ a:link, a:visited {
 .cardContent {
   background-color: white;
   margin: auto;
-  height: 750px;
-  width: 500px;
+  height: 50vw;
+  width: 30vw;
   box-shadow: 0px 0px 59px 5px rgba(0, 0, 0, 0.58);
   overflow: scroll;
 }
 
 .cardHeader {
-  height: 75px;
+  height: 10vw;
   font-weight: 100;
-  font-size: 50px;
+  font-size: 2.25vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,26 +37,26 @@ a:link, a:visited {
 
 .cardTitle {
   margin-left: 3%;
-  margin-top: 3%;
+  margin-top: 1%;
 }
 
 .cardIcon {
   margin-top: 2%;
-  margin-right: 2%;
+  margin-right:3%;
 }
 
 .cardData {
-  font-size: 36px;
+  font-size: 2vw;
   font-weight: 100;
   text-align: left;
   margin: auto;
-  padding-top: 200px;
-  height: 600px;
-  width: 400px;
+  padding-top: 7vw;
+  height: 34vw;
+  width: 23vw;
 }
 
 .cardSwitch {
-  height: 75px;
+  height: 5vw;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -66,9 +66,9 @@ a:link, a:visited {
 .switch {
   position: relative;
   display: inline-block;
-  width: 80px;
-  height: 45px;
-  margin-right: 5%;
+  width: 7vw;
+  height: 4vw;
+  margin-right: 1.5vw;
 }
 
 .dataSource{
@@ -95,10 +95,10 @@ a:link, a:visited {
 .slider:before {
   position: absolute;
   content: "";
-  height: 35px;
-  width: 35px;
-  left: 8px;
-  bottom: 5px;
+  height: 3vw;
+  width: 3vw;
+  left: .5vw;
+  bottom: .5vw;
   background-color: blue;
   transition: .4s;
 }
@@ -108,16 +108,16 @@ input:checked+.slider {
 }
 
 input:focus+.slider {
-  box-shadow: 0 0 10px #2196F3;
+  box-shadow: 0 0 1.5vw #2196F3;
 }
 
 input:checked+.slider:before {
 
-  transform: translateX(30px);
+  transform: translateX(3vw);
 }
 
 .slider.round {
-  border-radius: 36px;
+  border-radius: 2.5vw;
 }
 
 .slider.round:before {
