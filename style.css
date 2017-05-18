@@ -5,7 +5,7 @@ h1, h2, h3 {
 
 a:link, a:visited {
     color: white;
-    text-decoration: none;
+     text-decoration: none !important;
 }
 
 i{
@@ -32,7 +32,7 @@ i{
 }
 
 .cardHeader {
-  height: 10vw;
+  height: 8vw;
   font-weight: 100;
   font-size: 2.25vw;
   display: flex;
@@ -51,12 +51,12 @@ i{
 }
 
 .cardData {
-  font-size: 2vw;
+  font-size: 7.5vw;
   font-weight: 100;
-  text-align: left;
+  text-align: center;
   margin: auto;
-  padding-top: 7vw;
-  height: 34vw;
+  padding-top: 6vw;
+  height: 36vw;
   width: 23vw;
 }
 

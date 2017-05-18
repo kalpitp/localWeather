@@ -10,8 +10,8 @@ $(document).ready(function() {
 
      var tempc= (tempf-32)*1.8;
 
-    htmlTempF= "Temperature: "+tempf.toFixed(0)+ " degrees "+ " f <br> Humidity: "+json.currently.humidity+"<br> Wind Speed: "+json.currently.windSpeed + " mph <br> Condition: " + json.currently.summary
-    htmlTempC= "Temperature: "+tempc.toFixed(0)+ " degrees "+ " c <br> Humidity: "+json.currently.humidity+"<br> Wind Speed: "+json.currently.windSpeed + " mph <br> Condition: " + json.currently.summary
+    htmlTempF= tempf.toFixed(0)+ "&#8457 <br> <a style=\"font-size: 2vw\">"  + json.currently.summary + "</a>"
+    htmlTempC= tempc.toFixed(0)+ "&#8451 <br> <a style=\"font-size: 2vw\">" + json.currently.summary + "</a>"
 
      var icon=json.currently.icon;
 
